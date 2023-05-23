@@ -28,7 +28,9 @@ function doThirdThing(result) {
 function failureCallback(error) {
   console.log('failureCallback', error);
 }
+// 不可动 end
 
+// 还原目标
 doSomething().then(function (result) {
   return doSomethingElse(result)
 })
@@ -39,7 +41,6 @@ doSomething().then(function (result) {
     console.log('Got the final result: ' + finalResult)
   })
   .catch(failureCallback)
-// 不可动 end
 
 
 // 使用async/await，简化promise的使用，使代码更像同步代码

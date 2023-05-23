@@ -1,4 +1,5 @@
 // 用promise实现sleep
+// function sleep
 
 // 使main内sleep 1秒
 function main (){

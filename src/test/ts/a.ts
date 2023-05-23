@@ -6,6 +6,8 @@ function main() {
   console.log(greeter.greet());
 }
 
+main();
+
 // 按以上的用法，对Class定义进行补全
 // 以下作答
 
