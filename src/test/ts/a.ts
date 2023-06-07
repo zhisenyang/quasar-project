@@ -4,6 +4,7 @@ function main() {
   const greeter = new Greeter('world');
   greeter.greeting = 'TypeScript';
   console.log(greeter.greet());
+  // 结果为：Hello, TypeScript
 }
 
 main();

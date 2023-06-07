@@ -1,4 +1,4 @@
-// TypeScript 中如何联合interface的Key?
+// 联合interface的Key
 
 export interface Str {
   A: string;
@@ -6,7 +6,7 @@ export interface Str {
   C: string;
 }
 
-// 使strUnion的type为：'A' | 'B' | 'C'
 // 以下作答
 
+// 使strUnion为：'A' | 'B' | 'C'
 // type strUnion;
