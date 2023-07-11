@@ -1,0 +1,1054 @@
+[
+  {
+    "id": 14,
+    "dataPerms": 2,
+    "deptList": [],
+    "menuList": [
+      {
+        "perms": "base:sys:role:add"
+      },
+      {
+        "perms": "base:sys:role:delete"
+      },
+      {
+        "perms": "base:sys:role:update"
+      },
+      {
+        "perms": "base:sys:role:page,base:sys:role:list,base:sys:role:info"
+      },
+      {
+        "perms": "base:sys:department:list"
+      },
+      {
+        "perms": "base:sys:department:add"
+      },
+      {
+        "perms": "base:sys:department:update"
+      },
+      {
+        "perms": "base:sys:department:delete"
+      },
+      {
+        "perms": "base:sys:department:order"
+      },
+      {
+        "perms": "base:sys:user:move"
+      },
+      {
+        "perms": "base:sys:user:add"
+      },
+      {
+        "perms": "base:sys:user:delete"
+      },
+      {
+        "perms": "base:sys:user:delete,base:sys:user:update"
+      },
+      {
+        "perms": "base:sys:user:page,base:sys:user:list,base:sys:user:info"
+      },
+      {
+        "perms": "goods:info:delete"
+      },
+      {
+        "perms": "goods:info:update,goods:info:info"
+      },
+      {
+        "perms": "goods:info:info"
+      },
+      {
+        "perms": "goods:info:list"
+      },
+      {
+        "perms": "goods:info:page"
+      },
+      {
+        "perms": "goods:info:add"
+      },
+      {
+        "perms": "goods:category:delete"
+      },
+      {
+        "perms": "goods:category:update,goods:category:info"
+      },
+      {
+        "perms": "goods:category:info"
+      },
+      {
+        "perms": "goods:category:list"
+      },
+      {
+        "perms": "goods:category:page"
+      },
+      {
+        "perms": "goods:category:add"
+      },
+      {
+        "perms": "base:sys:param:data"
+      },
+      {
+        "perms": "wechat:user:delete"
+      },
+      {
+        "perms": "wechat:user:update,wechat:user:info"
+      },
+      {
+        "perms": "wechat:user:info"
+      },
+      {
+        "perms": "wechat:user:list"
+      },
+      {
+        "perms": "wechat:user:page"
+      },
+      {
+        "perms": "wechat:user:add"
+      },
+      {
+        "perms": "base:sys:menu:page,base:sys:menu:info,base:sys:menu:list"
+      },
+      {
+        "perms": "jisuapi:barcode:delete"
+      },
+      {
+        "perms": "jisuapi:barcode:update,jisuapi:barcode:info"
+      },
+      {
+        "perms": "jisuapi:barcode:info"
+      },
+      {
+        "perms": "jisuapi:barcode:list"
+      },
+      {
+        "perms": "jisuapi:barcode:page"
+      },
+      {
+        "perms": "jisuapi:barcode:add"
+      },
+      {
+        "perms": "goods:useMethod:delete"
+      },
+      {
+        "perms": "goods:useMethod:update,goods:useMethod:info"
+      },
+      {
+        "perms": "goods:useMethod:info"
+      },
+      {
+        "perms": "goods:useMethod:list"
+      },
+      {
+        "perms": "goods:useMethod:page"
+      },
+      {
+        "perms": "goods:useMethod:add"
+      },
+      {
+        "perms": "goods:useFrequency:delete"
+      },
+      {
+        "perms": "goods:useFrequency:update,goods:useFrequency:info"
+      },
+      {
+        "perms": "goods:useFrequency:info"
+      },
+      {
+        "perms": "goods:useFrequency:list"
+      },
+      {
+        "perms": "goods:useFrequency:page"
+      },
+      {
+        "perms": "goods:useFrequency:add"
+      },
+      {
+        "perms": "register:info:delete"
+      },
+      {
+        "perms": "register:info:update,registe:info:info"
+      },
+      {
+        "perms": "register:info:info"
+      },
+      {
+        "perms": "register:info:list"
+      },
+      {
+        "perms": "register:info:page"
+      },
+      {
+        "perms": "register:info:add"
+      },
+      {
+        "perms": "order:info:delete"
+      },
+      {
+        "perms": "order:info:update,order:info:info"
+      },
+      {
+        "perms": "order:info:info"
+      },
+      {
+        "perms": "order:info:list"
+      },
+      {
+        "perms": "order:info:page"
+      },
+      {
+        "perms": "order:info:add"
+      },
+      {
+        "perms": "template:goods:info:delete"
+      },
+      {
+        "perms": "template:goods:info:update,template:goods:info:info"
+      },
+      {
+        "perms": "template:goods:info:info"
+      },
+      {
+        "perms": "template:goods:info:list"
+      },
+      {
+        "perms": "template:goods:info:page"
+      },
+      {
+        "perms": "template:goods:info:add"
+      },
+      {
+        "perms": "template:goods:category:delete"
+      },
+      {
+        "perms": "template:goods:category:update,template:goods:category:info"
+      },
+      {
+        "perms": "template:goods:category:info"
+      },
+      {
+        "perms": "template:goods:category:list"
+      },
+      {
+        "perms": "template:goods:category:page"
+      },
+      {
+        "perms": "template:goods:category:add"
+      },
+      {
+        "perms": "lis:laboratory:delete"
+      },
+      {
+        "perms": "lis:laboratory:update,lis:laboratory:info"
+      },
+      {
+        "perms": "lis:laboratory:info"
+      },
+      {
+        "perms": "lis:laboratory:list"
+      },
+      {
+        "perms": "lis:laboratory:page"
+      },
+      {
+        "perms": "lis:laboratory:add"
+      },
+      {
+        "perms": "lis:project:delete"
+      },
+      {
+        "perms": "lis:project:update,lis:project:info"
+      },
+      {
+        "perms": "lis:project:info"
+      },
+      {
+        "perms": "lis:project:list"
+      },
+      {
+        "perms": "lis:project:page"
+      },
+      {
+        "perms": "lis:project:add"
+      },
+      {
+        "perms": "user:patient:delete"
+      },
+      {
+        "perms": "user:patient:update,user:patient:info"
+      },
+      {
+        "perms": "user:patient:info"
+      },
+      {
+        "perms": "user:patient:list"
+      },
+      {
+        "perms": "user:patient:page"
+      },
+      {
+        "perms": "user:patient:add"
+      },
+      {
+        "perms": "hospital:info:delete"
+      },
+      {
+        "perms": "hospital:info:update,hospital:info:info"
+      },
+      {
+        "perms": "hospital:info:info"
+      },
+      {
+        "perms": "hospital:info:list"
+      },
+      {
+        "perms": "hospital:info:page"
+      },
+      {
+        "perms": "hospital:info:add"
+      },
+      {
+        "perms": "lis:category:delete"
+      },
+      {
+        "perms": "lis:category:update,lis:category:info"
+      },
+      {
+        "perms": "lis:category:info"
+      },
+      {
+        "perms": "lis:category:list"
+      },
+      {
+        "perms": "lis:category:page"
+      },
+      {
+        "perms": "lis:category:add"
+      },
+      {
+        "perms": "lis:order:confirm"
+      },
+      {
+        "perms": "lis:order:cancel"
+      },
+      {
+        "perms": "lis:order:delete"
+      },
+      {
+        "perms": "lis:order:update,lis:order:info"
+      },
+      {
+        "perms": "lis:order:info"
+      },
+      {
+        "perms": "lis:order:list"
+      },
+      {
+        "perms": "lis:order:page"
+      },
+      {
+        "perms": "lis:order:add"
+      },
+      {
+        "perms": "doctor:info:delete"
+      },
+      {
+        "perms": "doctor:info:update,doctor:info:info"
+      },
+      {
+        "perms": "doctor:info:info"
+      },
+      {
+        "perms": "doctor:info:list"
+      },
+      {
+        "perms": "doctor:info:page"
+      },
+      {
+        "perms": "doctor:info:add"
+      },
+      {
+        "perms": "lis:order:setMedicalPatient"
+      },
+      {
+        "perms": "lis:order:emptyPayNumTotal"
+      },
+      {
+        "perms": "lis:order:saleTotal"
+      },
+      {
+        "perms": "lis:adiconReport:list"
+      },
+      {
+        "perms": "lis:order:pay"
+      },
+      {
+        "perms": "lis:order:fallback"
+      },
+      {
+        "perms": "lis:order:append"
+      },
+      {
+        "perms": "lis:adiconReport:syncReportList"
+      },
+      {
+        "perms": "wechat:user:miniLogin"
+      },
+      {
+        "perms": "wechat:pay:pay,wechat:pay:query"
+      },
+      {
+        "perms": "lis:statistics:lab"
+      },
+      {
+        "perms": "lis:statistics:sale"
+      },
+      {
+        "perms": "lis:statistics:hospital"
+      },
+      {
+        "perms": "hospital:info:register,hospital:info:getDepartmentList"
+      },
+      {
+        "perms": "hospital:info:getSaleUser"
+      },
+      {
+        "perms": "notification:info:confirm"
+      },
+      {
+        "perms": "notification:info:delete"
+      },
+      {
+        "perms": "notification:info:update,notification:info:info"
+      },
+      {
+        "perms": "notification:info:send"
+      },
+      {
+        "perms": "notification:info:info"
+      },
+      {
+        "perms": "notification:info:list"
+      },
+      {
+        "perms": "notification:info:page"
+      },
+      {
+        "perms": "notification:info:add"
+      },
+      {
+        "perms": "notification:info:count"
+      },
+      {
+        "perms": "lis:projectFavorite:delete"
+      },
+      {
+        "perms": "lis:projectFavorite:page"
+      },
+      {
+        "perms": "lis:projectFavorite:add"
+      },
+      {
+        "perms": "goods:info:delete"
+      },
+      {
+        "perms": "goods:info:update,goods:info:info"
+      },
+      {
+        "perms": "goods:info:info"
+      },
+      {
+        "perms": "goods:info:list"
+      },
+      {
+        "perms": "goods:info:page"
+      },
+      {
+        "perms": "goods:info:add"
+      },
+      {
+        "perms": "goods:category:delete"
+      },
+      {
+        "perms": "goods:category:update,goods:category:info"
+      },
+      {
+        "perms": "goods:category:info"
+      },
+      {
+        "perms": "goods:category:list"
+      },
+      {
+        "perms": "goods:category:page"
+      },
+      {
+        "perms": "goods:category:add"
+      },
+      {
+        "perms": "goods:useMethod:delete"
+      },
+      {
+        "perms": "goods:useMethod:update,goods:useMethod:info"
+      },
+      {
+        "perms": "goods:useMethod:info"
+      },
+      {
+        "perms": "goods:useMethod:list"
+      },
+      {
+        "perms": "goods:useMethod:page"
+      },
+      {
+        "perms": "goods:useMethod:add"
+      },
+      {
+        "perms": "goods:useFrequency:delete"
+      },
+      {
+        "perms": "goods:useFrequency:update,goods:useFrequency:info"
+      },
+      {
+        "perms": "goods:useFrequency:info"
+      },
+      {
+        "perms": "goods:useFrequency:list"
+      },
+      {
+        "perms": "goods:useFrequency:page"
+      },
+      {
+        "perms": "goods:useFrequency:add"
+      },
+      {
+        "perms": "hospital:info:update"
+      },
+      {
+        "perms": "hospital:info:current"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "dataPerms": 2,
+    "deptList": [],
+    "menuList": [
+      {
+        "perms": "base:sys:role:add"
+      },
+      {
+        "perms": "base:sys:role:delete"
+      },
+      {
+        "perms": "base:sys:role:update"
+      },
+      {
+        "perms": "base:sys:role:page,base:sys:role:list,base:sys:role:info"
+      },
+      {
+        "perms": "base:sys:department:list"
+      },
+      {
+        "perms": "base:sys:department:add"
+      },
+      {
+        "perms": "base:sys:department:update"
+      },
+      {
+        "perms": "base:sys:department:delete"
+      },
+      {
+        "perms": "base:sys:department:order"
+      },
+      {
+        "perms": "base:sys:user:move"
+      },
+      {
+        "perms": "base:sys:user:add"
+      },
+      {
+        "perms": "base:sys:user:delete"
+      },
+      {
+        "perms": "base:sys:user:delete,base:sys:user:update"
+      },
+      {
+        "perms": "base:sys:user:page,base:sys:user:list,base:sys:user:info"
+      },
+      {
+        "perms": "goods:info:delete"
+      },
+      {
+        "perms": "goods:info:update,goods:info:info"
+      },
+      {
+        "perms": "goods:info:info"
+      },
+      {
+        "perms": "goods:info:list"
+      },
+      {
+        "perms": "goods:info:page"
+      },
+      {
+        "perms": "goods:info:add"
+      },
+      {
+        "perms": "goods:category:delete"
+      },
+      {
+        "perms": "goods:category:update,goods:category:info"
+      },
+      {
+        "perms": "goods:category:info"
+      },
+      {
+        "perms": "goods:category:list"
+      },
+      {
+        "perms": "goods:category:page"
+      },
+      {
+        "perms": "goods:category:add"
+      },
+      {
+        "perms": "base:sys:param:data"
+      },
+      {
+        "perms": "wechat:user:delete"
+      },
+      {
+        "perms": "wechat:user:update,wechat:user:info"
+      },
+      {
+        "perms": "wechat:user:info"
+      },
+      {
+        "perms": "wechat:user:list"
+      },
+      {
+        "perms": "wechat:user:page"
+      },
+      {
+        "perms": "wechat:user:add"
+      },
+      {
+        "perms": "base:sys:menu:page,base:sys:menu:info,base:sys:menu:list"
+      },
+      {
+        "perms": "jisuapi:barcode:delete"
+      },
+      {
+        "perms": "jisuapi:barcode:update,jisuapi:barcode:info"
+      },
+      {
+        "perms": "jisuapi:barcode:info"
+      },
+      {
+        "perms": "jisuapi:barcode:list"
+      },
+      {
+        "perms": "jisuapi:barcode:page"
+      },
+      {
+        "perms": "jisuapi:barcode:add"
+      },
+      {
+        "perms": "goods:useMethod:delete"
+      },
+      {
+        "perms": "goods:useMethod:update,goods:useMethod:info"
+      },
+      {
+        "perms": "goods:useMethod:info"
+      },
+      {
+        "perms": "goods:useMethod:list"
+      },
+      {
+        "perms": "goods:useMethod:page"
+      },
+      {
+        "perms": "goods:useMethod:add"
+      },
+      {
+        "perms": "goods:useFrequency:delete"
+      },
+      {
+        "perms": "goods:useFrequency:update,goods:useFrequency:info"
+      },
+      {
+        "perms": "goods:useFrequency:info"
+      },
+      {
+        "perms": "goods:useFrequency:list"
+      },
+      {
+        "perms": "goods:useFrequency:page"
+      },
+      {
+        "perms": "goods:useFrequency:add"
+      },
+      {
+        "perms": "register:info:delete"
+      },
+      {
+        "perms": "register:info:update,registe:info:info"
+      },
+      {
+        "perms": "register:info:info"
+      },
+      {
+        "perms": "register:info:list"
+      },
+      {
+        "perms": "register:info:page"
+      },
+      {
+        "perms": "register:info:add"
+      },
+      {
+        "perms": "order:info:delete"
+      },
+      {
+        "perms": "order:info:update,order:info:info"
+      },
+      {
+        "perms": "order:info:info"
+      },
+      {
+        "perms": "order:info:list"
+      },
+      {
+        "perms": "order:info:page"
+      },
+      {
+        "perms": "order:info:add"
+      },
+      {
+        "perms": "template:goods:info:delete"
+      },
+      {
+        "perms": "template:goods:info:update,template:goods:info:info"
+      },
+      {
+        "perms": "template:goods:info:info"
+      },
+      {
+        "perms": "template:goods:info:list"
+      },
+      {
+        "perms": "template:goods:info:page"
+      },
+      {
+        "perms": "template:goods:info:add"
+      },
+      {
+        "perms": "template:goods:category:delete"
+      },
+      {
+        "perms": "template:goods:category:update,template:goods:category:info"
+      },
+      {
+        "perms": "template:goods:category:info"
+      },
+      {
+        "perms": "template:goods:category:list"
+      },
+      {
+        "perms": "template:goods:category:page"
+      },
+      {
+        "perms": "template:goods:category:add"
+      },
+      {
+        "perms": "lis:laboratory:delete"
+      },
+      {
+        "perms": "lis:laboratory:update,lis:laboratory:info"
+      },
+      {
+        "perms": "lis:laboratory:info"
+      },
+      {
+        "perms": "lis:laboratory:list"
+      },
+      {
+        "perms": "lis:laboratory:page"
+      },
+      {
+        "perms": "lis:laboratory:add"
+      },
+      {
+        "perms": "lis:project:delete"
+      },
+      {
+        "perms": "lis:project:update,lis:project:info"
+      },
+      {
+        "perms": "lis:project:info"
+      },
+      {
+        "perms": "lis:project:list"
+      },
+      {
+        "perms": "lis:project:page"
+      },
+      {
+        "perms": "lis:project:add"
+      },
+      {
+        "perms": "user:patient:delete"
+      },
+      {
+        "perms": "user:patient:update,user:patient:info"
+      },
+      {
+        "perms": "user:patient:info"
+      },
+      {
+        "perms": "user:patient:list"
+      },
+      {
+        "perms": "user:patient:page"
+      },
+      {
+        "perms": "user:patient:add"
+      },
+      {
+        "perms": "hospital:info:delete"
+      },
+      {
+        "perms": "hospital:info:update,hospital:info:info"
+      },
+      {
+        "perms": "hospital:info:info"
+      },
+      {
+        "perms": "hospital:info:list"
+      },
+      {
+        "perms": "hospital:info:page"
+      },
+      {
+        "perms": "hospital:info:add"
+      },
+      {
+        "perms": "lis:category:delete"
+      },
+      {
+        "perms": "lis:category:update,lis:category:info"
+      },
+      {
+        "perms": "lis:category:info"
+      },
+      {
+        "perms": "lis:category:list"
+      },
+      {
+        "perms": "lis:category:page"
+      },
+      {
+        "perms": "lis:category:add"
+      },
+      {
+        "perms": "lis:order:confirm"
+      },
+      {
+        "perms": "lis:order:cancel"
+      },
+      {
+        "perms": "lis:order:delete"
+      },
+      {
+        "perms": "lis:order:update,lis:order:info"
+      },
+      {
+        "perms": "lis:order:info"
+      },
+      {
+        "perms": "lis:order:list"
+      },
+      {
+        "perms": "lis:order:page"
+      },
+      {
+        "perms": "lis:order:add"
+      },
+      {
+        "perms": "doctor:info:delete"
+      },
+      {
+        "perms": "doctor:info:update,doctor:info:info"
+      },
+      {
+        "perms": "doctor:info:info"
+      },
+      {
+        "perms": "doctor:info:list"
+      },
+      {
+        "perms": "doctor:info:page"
+      },
+      {
+        "perms": "doctor:info:add"
+      },
+      {
+        "perms": "lis:order:setMedicalPatient"
+      },
+      {
+        "perms": "lis:order:emptyPayNumTotal"
+      },
+      {
+        "perms": "lis:order:saleTotal"
+      },
+      {
+        "perms": "lis:adiconReport:list"
+      },
+      {
+        "perms": "lis:order:pay"
+      },
+      {
+        "perms": "lis:order:fallback"
+      },
+      {
+        "perms": "lis:order:append"
+      },
+      {
+        "perms": "lis:adiconReport:syncReportList"
+      },
+      {
+        "perms": "wechat:user:miniLogin"
+      },
+      {
+        "perms": "wechat:pay:pay,wechat:pay:query"
+      },
+      {
+        "perms": "lis:statistics:lab"
+      },
+      {
+        "perms": "lis:statistics:sale"
+      },
+      {
+        "perms": "lis:statistics:hospital"
+      },
+      {
+        "perms": "hospital:info:register,hospital:info:getDepartmentList"
+      },
+      {
+        "perms": "hospital:info:getSaleUser"
+      },
+      {
+        "perms": "notification:info:confirm"
+      },
+      {
+        "perms": "notification:info:delete"
+      },
+      {
+        "perms": "notification:info:update,notification:info:info"
+      },
+      {
+        "perms": "notification:info:send"
+      },
+      {
+        "perms": "notification:info:info"
+      },
+      {
+        "perms": "notification:info:list"
+      },
+      {
+        "perms": "notification:info:page"
+      },
+      {
+        "perms": "notification:info:add"
+      },
+      {
+        "perms": "notification:info:count"
+      },
+      {
+        "perms": "lis:projectFavorite:delete"
+      },
+      {
+        "perms": "lis:projectFavorite:page"
+      },
+      {
+        "perms": "lis:projectFavorite:add"
+      },
+      {
+        "perms": "goods:info:delete"
+      },
+      {
+        "perms": "goods:info:update,goods:info:info"
+      },
+      {
+        "perms": "goods:info:info"
+      },
+      {
+        "perms": "goods:info:list"
+      },
+      {
+        "perms": "goods:info:page"
+      },
+      {
+        "perms": "goods:info:add"
+      },
+      {
+        "perms": "goods:category:delete"
+      },
+      {
+        "perms": "goods:category:update,goods:category:info"
+      },
+      {
+        "perms": "goods:category:info"
+      },
+      {
+        "perms": "goods:category:list"
+      },
+      {
+        "perms": "goods:category:page"
+      },
+      {
+        "perms": "goods:category:add"
+      },
+      {
+        "perms": "goods:useMethod:delete"
+      },
+      {
+        "perms": "goods:useMethod:update,goods:useMethod:info"
+      },
+      {
+        "perms": "goods:useMethod:info"
+      },
+      {
+        "perms": "goods:useMethod:list"
+      },
+      {
+        "perms": "goods:useMethod:page"
+      },
+      {
+        "perms": "goods:useMethod:add"
+      },
+      {
+        "perms": "goods:useFrequency:delete"
+      },
+      {
+        "perms": "goods:useFrequency:update,goods:useFrequency:info"
+      },
+      {
+        "perms": "goods:useFrequency:info"
+      },
+      {
+        "perms": "goods:useFrequency:list"
+      },
+      {
+        "perms": "goods:useFrequency:page"
+      },
+      {
+        "perms": "goods:useFrequency:add"
+      },
+      {
+        "perms": "hospital:info:update"
+      },
+      {
+        "perms": "hospital:info:current"
+      }
+    ]
+  }
+]
