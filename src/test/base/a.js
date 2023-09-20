@@ -7,11 +7,11 @@
  * 3、第一个数需要立即输出
  * 4、输出完自动停止
  */
-function count(start, end) {
-
-}
+function count(start, end) {}
 
 function main() {
   const cancel = count(1, 10);
-  setTimeout(cancel, 5 * 1000)
+  setTimeout(cancel, 5 * 1000);
 }
+
+main();
