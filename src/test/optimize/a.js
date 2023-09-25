@@ -13,15 +13,6 @@ function a() {
 }
 console.log('a()', a());
 
-function b() {
-  const time = Date.now();
-  // start
-  if (time & (2 === 0)) {
-  }
-  // end
-}
-console.log('b()', b());
-
 function c() {
   /**
    * type为某种余额状态，按状态返回字符串
