@@ -13,6 +13,20 @@ function a() {
 }
 console.log('a()', a());
 
+function b() {
+  const getActive =
+    // start
+    (item, arr) => {
+      for (let v of arr) {
+        if (item.id == v.id) return true;
+      }
+      return false;
+    };
+  // end
+  return getActive(Date.now() % 2, [1, 2, 3, 4, 5]);
+}
+console.log('b()', b());
+
 function c() {
   /**
    * type为某种余额状态，按状态返回字符串
