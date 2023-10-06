@@ -1,6 +1,6 @@
 /**
  * 尽可能对以下 start end 内代码进行优化
- * 1、做题时对源代码注释
+ * 1、做题时对原代码注释
  * 2、按自己习惯和技能尽可能优化
  */
 
@@ -14,16 +14,34 @@ function a() {
 console.log('a()', a());
 
 function b() {
-  const getActive =
+  const isActive =
     // start
-    (item, arr) => {
-      for (let v of arr) {
-        if (item.id == v.id) return true;
+    (target, array) => {
+      for (const item of array) {
+        if (target.id === item.id) return true;
       }
       return false;
     };
   // end
-  return getActive(Date.now() % 2, [1, 2, 3, 4, 5]);
+  return isActive(
+    {
+      id: Date.now() % 2,
+    },
+    [
+      {
+        id: 1,
+      },
+      {
+        id: 2,
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 4,
+      },
+    ]
+  );
 }
 console.log('b()', b());
 
@@ -39,11 +57,9 @@ function c() {
   let typeName;
   if (type === 1) {
     typeName = '充值';
-  }
-  if (type === 2) {
+  } else if (type === 2) {
     typeName = '消费';
-  }
-  if (type === 3) {
+  } else if (type === 3) {
     typeName = '退款';
   }
   // end

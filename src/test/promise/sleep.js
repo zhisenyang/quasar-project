@@ -1,5 +1,5 @@
-// 用promise实现sleep(阻塞)function
-function sleep() {}
+// 用promise实现sleep(阻塞)function，解开以下注释实现。
+// sleep
 
 // 使main内sleep 1秒
 export async function main() {
