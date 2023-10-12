@@ -67,7 +67,7 @@ sample();
 
 // 使用async/await，简化promise的使用，使代码更像同步代码
 function main() {
-  // doThirdThing可能会失败，需精准捕获错误
+  // 仅doThirdThing可能会失败，仅捕获doThirdThing的报错
 }
 
 main();
