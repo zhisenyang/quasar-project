@@ -17,7 +17,7 @@
  * 保持type的一致性和动态性，不使用any
  */
 function retry() {
-
+  //
 }
 
 export async function main() {
@@ -28,8 +28,7 @@ export async function main() {
           resolve(1);
           return;
         }
-        if (Date.now() % 5 === 1)
-          throw new Error('Error');
+        if (Date.now() % 5 === 1) throw new Error('Error');
         reject();
       })
   );

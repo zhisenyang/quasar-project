@@ -1,7 +1,7 @@
 // TypeScript 设计 Class 的声明
 
 function main() {
-  const greeter = new Greeter('world');
+  const greeter = new Greeter('Hello');
   greeter.greeting = 'TypeScript';
   console.log(greeter.greet());
   // 结果为：Hello, TypeScript

@@ -12,6 +12,8 @@
  *
  * 以下作答
  */
-function main() {}
+function main() {
+  //
+}
 
 console.log(main());
