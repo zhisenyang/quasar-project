@@ -5,6 +5,7 @@
  */
 
 function a() {
+  // 假设，实际业务并非固定值
   const a = 'a';
   // start
   const bool = a === 'a' || a === 'b' || a === 'c';
